@@ -2,6 +2,7 @@
 
 ## Summary
 React Project 시작 페이지 입니다. 해당 문서에서는 CRA 명령어 없이 Webpack을 통해 파일들을 번들링 하는 과정을 설명합니다. 
+[Webpack, Babel 자세히](https://velog.io/@soll/React-Project-Webpack-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
 
 ## 목표
 - CRA 명령어 없이 프로젝트 setup
