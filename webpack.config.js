@@ -17,12 +17,13 @@ module.exports = {
     ],
     module: {
         rules: [{
-            test: /\.js$/,
+            // /\.m?js$: 의미?
+            test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['@babel/preset-env', '@babel/preset-react']
+                    presets: ['@babel/preset-react']
                 }
             }
         }]

@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function App(){
+
+    useEffect(() => {
+
+    },[])
+
+    const test = () => {
+        console.log('test')
+    }
+
     return (
-        <div>App Page</div>
+        <div onClick={test}>App Page</div>
     )
 }
 
